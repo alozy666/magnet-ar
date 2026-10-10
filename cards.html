@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>بطاقات المغناطيس للطباعة</title>
+<style>
+  body{font-family:Tahoma,"Segoe UI",sans-serif;margin:0;padding:24px;color:#1E2A2F;background:#fff}
+  h1{font-size:22px;margin:0 0 6px} p{margin:0 0 18px;color:#5B6B70}
+  .cards{display:flex;flex-wrap:wrap;gap:28px;justify-content:center}
+  .card{border:2px dashed #B8C4CE;border-radius:14px;padding:16px;text-align:center;width:320px}
+  .card h2{margin:0 0 10px;font-size:22px}
+  .row{display:flex;align-items:center;justify-content:center;gap:10px;direction:ltr}
+  .pole{width:44px;height:120px;border-radius:10px;color:#fff;font-weight:bold;font-size:26px;display:flex;align-items:center;justify-content:center}
+  .n{background:#D64541} .s{background:#2F6FD6}
+  .row img{width:200px;height:200px}
+  .note{font-size:13px;color:#5B6B70;margin-top:10px}
+  @media print{p.screen{display:none}}
+</style>
+</head>
+<body>
+  <h1>بطاقات «مختبر القوة الخفية»</h1>
+  <p class="screen">اطبع هذه الصفحة على ورق مقوى (من دون تصغير)، وقصّ البطاقتين، ولا تقص الحد الأسود حول الرمز. لكل فريق بطاقة (أ) وبطاقة (ب).</p>
+  <div class="cards">
+    <div class="card">
+      <h2>المغناطيس (أ)</h2>
+      <div class="row">
+        <div class="pole s">ج</div>
+        <img src="card-A.png" alt="رمز البطاقة A">
+        <div class="pole n">ش</div>
+      </div>
+      <div class="note">القطب الشمالي (ش) على اليمين، والجنوبي (ج) على اليسار.</div>
+    </div>
+    <div class="card">
+      <h2>المغناطيس (ب)</h2>
+      <div class="row">
+        <div class="pole s">ج</div>
+        <img src="card-B.png" alt="رمز البطاقة B">
+        <div class="pole n">ش</div>
+      </div>
+      <div class="note">القطب الشمالي (ش) على اليمين، والجنوبي (ج) على اليسار.</div>
+    </div>
+  </div>
+</body>
+</html>
